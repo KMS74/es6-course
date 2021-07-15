@@ -17,10 +17,6 @@ _______________________________________
     9) In fact, there is! It’s called the rest parameter, and it’s another new addition in ES6.
     10) The rest parameter, also written with three consecutive dots ( ... ), allows you to represent an indefinite number of elements as an array. 
 
-
-
-
-
 */
 
 // Using let, const keywords
@@ -202,7 +198,6 @@ for (let day of days) {
   day = day.charAt(0).toUpperCase() + day.substr(1);
   console.log(day);
 }
-
 // Using spread operator
 const books = [
   "Don Quixote",
